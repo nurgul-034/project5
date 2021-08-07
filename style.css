@@ -1,0 +1,215 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-menu{
+    text-decoration: none;
+    width: 50%;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+
+}
+html,body, main{
+height: 100%;
+}
+
+
+header{
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background-color:#EEEFF1;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+nav{
+    width: 80%;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item{
+    text-decoration: none;
+    color:black;
+}
+.header-info{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-img{
+    display: block;
+    height: 40%;
+
+}
+.info-text{
+    width: 50%;
+}
+h1{
+    font-size: 48px;
+}
+
+.header-info p{
+    font: 16px;
+    color:#727272;
+    padding: 60px 0;
+}
+.header-info button{
+    background-color: #34547A;
+    padding: 25px 40px;
+    border:none;
+    color:white;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+/* Блок обо мне */
+.about-me{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 100px 0 100px;
+}
+.about-me-title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+ .about-me-text{
+     width: 30%;
+     text-align: center;
+ }
+/* Проекты */
+.projects{
+    background-color: #34547A;
+    padding: 100px 0;
+}
+.projects-list{
+    width: 80%;
+    margin: auto;
+}
+.projects-item{
+    display: flex;
+}
+.projects-list{
+    display: flex;
+    justify-content: space-between;
+}
+.projects-item img{
+    margin-right: 20px;
+}
+.project-text{
+    color:white;
+}
+.my-skills{
+    height: 100%;
+    background-color: #EEEFF1;
+    display: flex;
+
+}
+.my-skills-wrapper{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+
+}
+.my-skills-text{
+    width: 50%;
+}
+.my-skills-img{
+    width: 50%;
+}
+.my-skills-img img{
+    width: 80%;
+}
+.my-skill-container{
+    width: 80%;
+    height: 4px;
+    background-color: #C4C4C4;
+}
+.my-skill-bar{
+    width: 80%;
+    height: 5px;
+    background-color: #34547A;
+}
+/* Процесс работы */
+.process{
+    height: 100%;
+    background-color: #EEEFF1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.process-text{
+    width: 50%;
+    text-align: center;
+
+}
+.process-description{
+    width: 80%;
+    margin: auto;
+  
+}
+.process-video{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.img-hover{
+    width: 100%;
+    height: 100%;
+    padding-top: 40px;
+    background-color: #EEEFF1;
+}
+.process-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.img-hover-first{
+    display: block;
+    width: 337px;
+    height: 330px;
+    background: url(../img/Rectangle\ 7\ \(3\).png);
+}
+.img-hover-second{
+    display: block;
+    width: 337px;
+    height: 330px;
+    background: url(../img/Rectangle\ 7.5\ \(1\).png);
+}
+.img-hover-second:hover{
+    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(52, 84, 122, 0.8), rgba(52, 84, 122, 0.8)), url(../img/view.png);
+}
+.procress-foto-first{
+    width: 250px;
+    height: 120px;
+
+}
+.procress-foto{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.procress-foto-img{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 100%;
+    padding-top: 50px;
+}

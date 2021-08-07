@@ -1,0 +1,27 @@
+@media (max-width:480px) {
+        .info-img{
+        width: 100%;
+        padding-top: 100px;
+    }
+    .info-text{
+        width: 100%;
+    }
+    h1{
+        font-size: 45px;
+        text-align: center;
+    }
+    .header-info p{
+        padding: 15px 0;
+    }
+    .about-me-text{
+        width: 80%;
+        text-align: center;
+    }
+    .projects-list{
+        flex-wrap: wrap;
+    }
+    .projects-item img{
+        margin-bottom: 20px;
+    }
+   
+}
